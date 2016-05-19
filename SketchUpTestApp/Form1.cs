@@ -22,7 +22,7 @@ namespace SketchUpTestApp
 
         private void btnExcecute_Click(object sender, EventArgs e)
         {
-            string filePath = txtBoxPath.Text;
+             string filePath = txtBoxPath.Text;
             if (!File.Exists(filePath))
                 return;
             ExcecuteSketchUp(filePath);
